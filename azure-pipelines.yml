@@ -29,7 +29,7 @@ steps:
     python -m pip install --upgrade pip
     ls -all
     pwd
-    pip install -r requirements.txt
+    sudo apt-get install sshpass
   displayName: 'Install dependencies'
 
 - script: |
